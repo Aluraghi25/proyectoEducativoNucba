@@ -30,13 +30,16 @@
               <button class="close-menu" aria-label="Cerrar Menú">
                 <img src="./img/vcsconflicting_93497.svg" alt="Cerrar Menú">
               </button> 
-              <li><a href="#"> Inicio </a></li>
-              <li><a href="#"> Acerca de Mí </a></li>
-              <li><a href="#"> Apoyo Escolar </a></li>
-              <li><a href="#"> Recursos Didacticos </a></li>
-              <li><a href="#"> Articulos </a></li>
-              <li><a href="#"> Contacto </a></li>
+              <li><a href="inicio"> Inicio </a></li>
+              <li><a href="acercaD"> Acerca de Mí </a></li>
+              <li><a href="apoyoEscolar"> Apoyo Escolar </a></li>
+              <li><a href="recursos"> Recursos Didacticos </a></li>
+              <li><a href="contacto"> Contacto </a></li>
             </ul>
+
+            <div>
+                <a class="btn btn-primary btn-sm confBoton" href="./pages/iniciarSesion.html" target="_blank">Iniciar Sesion</a>
+            </div>
         </nav> 
     </header>
 
@@ -123,16 +126,28 @@
                 </div>
             </div>
         </section>
+
+        <section class="contenedor" id="contacto">
+            <form action="" class="formulario">
+                <h2 class="tituloFormulario"> Formulario de Contacto </h2>
+                <input type="text" class="completar"> <label for="" class="label"> Nombre y Apellido </label>
+                <input type="text" class="completar"> <label for="" class="label"> Correo Electronico </label>
+                <input type="text" class="completar"> <label for="" class="label"> Telefono </label>
+                <input type="text" class="completar"> <label for="" class="label"> Escriba su Mensaje </label>
+                <button class="enviar" id="send"> Enviar </button>
+            </form>
+        </section>
     </main>
 
     <footer class="footer">
-        <div class="contenedor footer__grid">
+        <div class="contenedor footerGrid">
     
-            <nav class="nav nav--footer">
-                <a class="nav__items nav__items--footer" href="#"> Inicio </a>
-                <a class="nav__items nav__items--footer" href="#"> Sobre Mi </a>
-                <a class="nav__items nav__items--footer" href="#"> Mis Skills </a>
-                <a class="nav__items nav__items--footer" href="#"> Proyectos </a>
+            <nav class="footerMenu nav--footer">
+                <a class="footerItems footerItems--footer" href="#"> Inicio </a>
+                <a class="footerItems footerItems--footer" href="#"> Acerca de Mi </a>
+                <a class="footerItems footerItems--footer" href="#"> Apoyo Escolar </a>
+                <a class="footerItems footerItems--footer" href="#"> Recursos Didacticos </a>
+                <a class="footerItems footerItems--footer" href="#"> Articulos </a>
             </nav>
     
             <section class="footer__contacto">

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script defer src="../js/openClose.js"></script>
+    <link rel="icon" href="../img/maestraIcono.ico">
+    <title>IntegrArte - Iniciar Sesion</title>
+</head>
+<body>
+    <header class="topheader">
+        <nav class="topnav">
+            <a href="#" class="logo">
+                <img
+                height="50"
+                width="50"
+                src="../img/maestraLogo.png" alt="Logo de la Pagina">
+                <div class="companyName">
+                    IntegrArte
+                </div>
+            </a>
+            <button class="open-menu" aria-label="Abrir Menú">
+                <img src="../img/hamburger_button_menu_icon_155296.svg" alt="Abrir Menú">
+            </button>
+            <ul class="menu">
+              <button class="close-menu" aria-label="Cerrar Menú">
+                <img src="../img/vcsconflicting_93497.svg" alt="Cerrar Menú">
+              </button> 
+              <li><a href="inicio"> Inicio </a></li>
+              <li><a href="acercaD"> Acerca de Mí </a></li>
+              <li><a href="apoyoEscolar"> Apoyo Escolar </a></li>
+              <li><a href="recursos"> Recursos Didacticos </a></li>
+              <li><a href="contacto"> Contacto </a></li>
+            </ul>
+        </nav> 
+    </header>
+
+    <main class="encabezadoDos">
+        <div class="formularioInicio">
+          <h1>Inicio de Sesion</h1>
+          <form method="post">
+                <div class="usuario">
+                    <input type="text" required>
+                    <label>Nombre de Usuario</label>
+                </div>
+
+                <div class="contrasenia">
+                    <input type="password" required>
+                    <label>Contraseña</label>
+                </div>
+
+                <div class="recordar">
+                    <p>¿Has Olvidado tu Contraseña?</p> 
+                </div>
+
+                <input type="submit" value="Iniciar">
+
+                <div class="registrarse">
+                    <a class="btn btn-primary btn-sm" href="../pages/crearCuenta.html" target="_blank">Crear Nuevo Usuario</a>
+                </div>
+            </form>
+        </div>  
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor footerGrid">
+    
+            <nav class="footerMenu nav--footer">
+                <a class="footerItems footerItems--footer" href="#"> Inicio </a>
+                <a class="footerItems footerItems--footer" href="#"> Acerca de Mi </a>
+                <a class="footerItems footerItems--footer" href="#"> Apoyo Escolar </a>
+                <a class="footerItems footerItems--footer" href="#"> Recursos Didacticos </a>
+                <a class="footerItems footerItems--footer" href="#"> Articulos </a>
+            </nav>
+    
+            <section class="footer__contacto">
+                <h3 class="footer__titulo"> Contactame </h3>
+    
+                <div class="footer__iconos">
+                    <span class="footer__contenedor-iconos">
+                        <a class="fa-brands fa-linkedin footer__icono" href="https://www.linkedin.com/in/andres-luraghi-407bb0142/" target="_blank"></a>
+                    </span>
+                    <span class="footer__contenedor-iconos">
+                        <a class="fa-brands fa-github footer__icono" href="https://github.com/Aluraghi25" target="_blank"></a>
+                    </span>
+                </div>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
